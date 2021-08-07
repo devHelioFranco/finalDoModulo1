@@ -1,0 +1,22 @@
+.escolha {
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.escolhaguild {
+  width: 28%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  align-content: space-between;
+  border: 0;
+  margin: 0;
+}
+.escolha-img {
+  margin-top: 10px;
+  height: 400px;
+  width: 400px;
+  box-shadow: 5px 15px black;
+  border-radius: 10px;
+}

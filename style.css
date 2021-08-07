@@ -1,0 +1,60 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin: 0%;
+    
+}
+.titulo {
+    color: #A60303;
+}
+p {
+    color: white;
+}
+strong {
+    color: #A60303;
+}
+a {
+    text-decoration: none;
+    color: #A60303;
+}
+
+.cabecalho-container {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    flex-wrap: wrap;
+}
+.titulo {
+    margin: 0;
+}
+.principal {
+    background-image: url("./imagens/ravnica1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    flex-direction: column;
+        
+}
+.conteudo-container {
+    max-height: 65%;
+    max-width: 75%;
+    background-color: rgba(0, 0, 0, 0.911);
+    border-radius: 15px;
+}
+.botao {
+    background-color: black;
+    padding: 5px;
+    border-radius: 10px;
+}   
+.rodape-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: black;
+}
