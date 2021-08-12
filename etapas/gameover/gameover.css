@@ -1,0 +1,43 @@
+body{
+    background-color: white;
+}
+main {
+    background-image: url('../../imagens/lili5.png');
+    padding-top: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.htitulo {
+    text-align: center;
+    padding-bottom: 55px;
+}
+.corpo-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.fielddiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 35%;
+    height: 40%;
+    align-items: center;
+    
+}
+img {
+    height: 400px;
+    width: 400px;
+}
+fieldset {
+    border: 0px;
+    padding: 0px;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+.botaodiv {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+

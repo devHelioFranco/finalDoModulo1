@@ -1,0 +1,27 @@
+main {
+    background-image: url(../../../../../../imagens/borosbg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 118%;
+}
+.corpo-container {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.barra {
+    width: 100%;
+    border: solid black 2px;
+    border-radius: 5px;
+}
+.battle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    height: 620px;
+}
+.personagem {
+    height: 400px;
+    width: 400px;
+}

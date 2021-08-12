@@ -1,0 +1,27 @@
+.corpo {
+    height: 650px;
+    background-image: url(../../../../../../../imagens/borosbg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 118%;
+}
+.corpo-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+
+}
+.div-imagem {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    
+}
+.borosfinale {
+    width: 500px;
+    height: 400px;
+}
+#texto {
+    flex-direction: column;
+    justify-content: center;
+}

@@ -1,6 +1,7 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
+    font-weight: 500;
     margin: 0%;
     
 }
@@ -17,13 +18,20 @@ a {
     text-decoration: none;
     color: #A60303;
 }
-
+img {
+  margin-top: 10px;
+  box-shadow: 15px 10px black;
+  border-radius: 10px;
+}
+.cabecalho {
+    height: 70px;
+}
 .cabecalho-container {
     background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px;
+    height: 70px;
     flex-wrap: wrap;
 }
 .titulo {
@@ -55,6 +63,6 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px;
+    height: 70px;
     background-color: black;
 }
