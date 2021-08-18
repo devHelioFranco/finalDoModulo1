@@ -23,7 +23,7 @@ function escolha () {
         return location = ("ala/ala.html");
     } 
     else if (rua == 2) {
-        return location = ("ala/rua.html");
+        return location = ("rua/rua.html");
     }
     else {
         return alert('Escolha uma opção válida!')

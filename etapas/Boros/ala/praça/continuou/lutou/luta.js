@@ -15,7 +15,7 @@ const hp = document.getElementById ('meuHP');
 const hp2 = document.getElementById ('bossHP');
 var minhaVida = 100;
 var minhaVidaMax = 100;
-var bossVida = 10;
+var bossVida = 200;
 var bossVidaMax = 200;
 
 hp.max = minhaVidaMax;
