@@ -1,5 +1,5 @@
 main {
-    background-image: url(../../imagens/borosbg.png);
+    background-image: url('../../imagens/dimirbg.png');
     background-repeat: no-repeat;
     background-size: 100% 118%;
 }
@@ -25,13 +25,4 @@ fieldset {
     border: 0;
     width: 35%;
     
-}
-@media (max-width: 700px) {
-
-body{
-    width: auto;
-}
-.corpo-container {
-flex-direction: column
-}
 }
